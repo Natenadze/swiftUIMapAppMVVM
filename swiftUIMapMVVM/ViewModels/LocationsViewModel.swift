@@ -50,7 +50,13 @@ class LocationsViewModel: ObservableObject {
             mapLocation = location
             showLocationList = false
         }
-        
     }
-    
+  
+    func nextButtonPressed() {
+        guard let currentIndex = locations.firstIndex(of: mapLocation) else { return }
+        let nextIndex = (currentIndex + 1) % locations.count
+        let nextLocation = locations[nextIndex]
+        showNextLocation(location: nextLocation)
+    }
+
 }

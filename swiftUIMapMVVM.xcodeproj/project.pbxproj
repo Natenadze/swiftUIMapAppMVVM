@@ -18,6 +18,7 @@
 		5D258FC72B2213A1003B15D2 /* Chris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D258FC62B2213A1003B15D2 /* Chris.swift */; };
 		5D258FC92B2213CD003B15D2 /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D258FC82B2213CD003B15D2 /* practice.swift */; };
 		5D3482602B23A19B008FA26B /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D34825F2B23A19B008FA26B /* LocationsListView.swift */; };
+		5DF192512B290C1F00425CA5 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF192502B290C1F00425CA5 /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5D258FC62B2213A1003B15D2 /* Chris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chris.swift; sourceTree = "<group>"; };
 		5D258FC82B2213CD003B15D2 /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
 		5D34825F2B23A19B008FA26B /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		5DF192502B290C1F00425CA5 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				5D258FBE2B21FDA0003B15D2 /* LocationsView.swift */,
 				5D34825F2B23A19B008FA26B /* LocationsListView.swift */,
+				5DF192502B290C1F00425CA5 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				5D258FC92B2213CD003B15D2 /* practice.swift in Sources */,
 				5D258FC42B22121A003B15D2 /* MyExtensions.swift in Sources */,
 				5D258FB62B21FA28003B15D2 /* LocationsDataService.swift in Sources */,
+				5DF192512B290C1F00425CA5 /* LocationPreviewView.swift in Sources */,
 				5D258FC12B220078003B15D2 /* LocationsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
